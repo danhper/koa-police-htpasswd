@@ -50,6 +50,7 @@ module.exports = function (scopes, options) {
   }
 
   return {
+    name: 'htpasswd',
     authenticate: function *(context, scope) {
       let info = getInfo(context.request.header.authorization);
       if (!scopes[scope] || !info || !scopes[scope][info.username]) {
