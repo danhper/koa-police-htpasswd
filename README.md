@@ -1,5 +1,7 @@
 # koa-police-htpasswd
 
+[![Build Status](https://travis-ci.org/tuvistavie/koa-police-htpasswd.svg)](https://travis-ci.org/tuvistavie/koa-police-htpasswd)
+
 A [koa-police](https://github.com/tuvistavie/koa-police) strategy using an `htpasswd` file to provide user and passwords.
 
 ## Installation
