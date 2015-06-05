@@ -1,6 +1,7 @@
 # koa-police-htpasswd
 
-[![Build Status](https://travis-ci.org/tuvistavie/koa-police-htpasswd.svg)](https://travis-ci.org/tuvistavie/koa-police-htpasswd)
+[![npm version](https://badge.fury.io/js/koa-police-htpasswd.svg)](http://badge.fury.io/js/koa-police-htpasswd)
+[![Build Status](https://travis-ci.org/tuvistavie/koa-police-htpasswd.svg)](https://travis-ci.org/tuvistavie/koa-police-htpasswd) [![Coverage Status](https://coveralls.io/repos/tuvistavie/koa-police-htpasswd/badge.svg)](https://coveralls.io/r/tuvistavie/koa-police-htpasswd)
 
 A [koa-police](https://github.com/tuvistavie/koa-police) strategy using an `htpasswd` file to provide user and passwords.
 
