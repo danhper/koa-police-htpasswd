@@ -1,0 +1,32 @@
+{
+  "name": "koa-police-htpasswd",
+  "version": "0.1.0",
+  "description": "htpasswd strategy for koa-police",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuvistavie/koa-police-htpasswd.git"
+  },
+  "keywords": [
+    "koa",
+    "koa-police",
+    "authentication"
+  ],
+  "author": "Daniel Perez <daniel@claudetech.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuvistavie/koa-police-htpasswd/issues"
+  },
+  "homepage": "https://github.com/tuvistavie/koa-police-htpasswd#readme",
+  "dependencies": {
+    "htpasswd": "^2.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "co": "^4.5.4",
+    "koa": "^0.21.0"
+  }
+}
