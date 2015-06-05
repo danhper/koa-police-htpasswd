@@ -4,7 +4,7 @@
   "description": "htpasswd strategy for koa-police",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --harmony test"
+    "test": "node_modules/.bin/mocha --harmony test"
   },
   "repository": {
     "type": "git",
